@@ -23,7 +23,7 @@ Each LED with a resistor in series goes to Pin 2 an 4 of a Dupont connector
 GND Resistor Dx Led VCC
 
 
-With 2 jumpers eah led can be confiured different ways:
+With 2 jumpers each led can be configured different ways:
 1) Placing jumpers between
  GND and Resistor and between Led and VCC => LED testing (connected to VCC and GND)
 In the middle (3) is Pin Dx connected to D2 up to D9 of the Arduino.
