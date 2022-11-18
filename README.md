@@ -35,3 +35,5 @@ In the middle (3) is Pin Dx connected to D2 up to D9 of the Arduino.
 Using one jumper and a dupont wire the LED can also be connected to any other Arduino pin.
 
 ![Schematic](/schematic/ArduinoD2-D9_tester.png)
+
+
