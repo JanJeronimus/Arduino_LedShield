@@ -11,7 +11,7 @@
 
 ![PCB finished](/assets/images/PCBfinished.jpg)
 
-### Led
+### Leds
 SMD and through hole components are drawn in paralell in the schematic, Solder only one. 
 
 Easy connect or disconnect leds with jumpers to pins D2 - D9 (and VCC or GND)
@@ -24,7 +24,7 @@ Circuit of each Led with a resistor in series goes to Pin 2 an 4 of the Dupont c
 5 pin connector:
 GND Resistor Dx Led VCC
 
-A led can be configured different ways:
+A Led can be configured different ways:
 1) Placing jumpers between
  GND and Resistor and between Led and VCC => LED testing (connected to VCC and GND)
 In the middle (3) is Pin Dx connected to D2 up to D9 of the Arduino.
@@ -35,19 +35,20 @@ In the middle (3) is Pin Dx connected to D2 up to D9 of the Arduino.
 
 4) Using a Dupont wire the LED can be connected also to any other Arduino pin.
 
-###Switches
+### Switches
 Using jumpers SW0 SW1 and SW2 can be wired to A0 A1 A2
-Also Reset 
+The PCB also has space for a Reset switch
 
-## Ardaptor
+### Ardaptor
 The PCB can also be used as "Ardaptor"  (Arduino Adaptor) to mount a cheap standard PY 5cmx7cm prototype board.
 It can convert the Arduino pin spacing to standard pin spacing. However in this case the LEDs area wil be covered.
 The yellow line on top indicated the size of the PY 7cm * 7 cm prototype board pin area. 
 
-PCB
+
+### PCB
 ![PCB Front and Back](/assets/images/PCB.jpg)
 
-Schematic
+### Schematic
 ![Schematic](/schematic/ArduinoD2-D9_tester.png)
 
 
