@@ -20,6 +20,7 @@ With some Dupont wires also other Arduino pins can be selected
 
 Each LED with a resistor in series goes to Pin 2 an 4 of a Dupont connector
 
+5 pin connector:
 GND Resistor Dx Led VCC
 
 
@@ -32,7 +33,7 @@ In the middle (3) is Pin Dx connected to D2 up to D9 of the Arduino.
 3) Placing jumpers between
  GND and Dx and between Led and VCC    => LED connected to Arduino pin and VCC
 
-Using one jumper and a dupont wire the LED can also be connected to any other Arduino pin.
+Using a Dupont wire the LED can be connected also to any other Arduino pin.
 
 ![Schematic](/schematic/ArduinoD2-D9_tester.png)
 
