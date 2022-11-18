@@ -46,11 +46,9 @@ The yellow line on top indicated the size of the PY 7cm * 7 cm prototype board p
 
 
 ### PCB
-
-![PCB](/assets/images/PCB.jpg)
+![PCB](/assets/images/PCB.png)
 
 ### Schematic
-
 ![Schematic](/schematic/ArduinoD2-D9_tester.png)
 
 
